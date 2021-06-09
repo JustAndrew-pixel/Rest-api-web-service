@@ -17,6 +17,10 @@ export class Friend {
 
   @Prop()
   phoneNumber: string
+
+  @Prop()
+  uuid: string
+
 }
 
 export const FriendSchema = SchemaFactory.createForClass(Friend)
